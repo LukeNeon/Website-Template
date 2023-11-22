@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.logga{
+    height: inherit;
+    width: 250px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+}
+.home .about .contact{
+    justify-content: center;
+    align-content: center;
+    height: inherit;
+    width: 80px;
+}
