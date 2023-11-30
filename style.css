@@ -1,34 +1,31 @@
 body{
     margin: 0;
     height: 110em;
-    background-color: #FFFCFF;
-}
-.logga img{
-    height: inherit;
-    width: 250px;
+    background-color: #5D6480;
 }
 nav{
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: center;
     height: 80px;
     width: 100%;
-    margin-top: 10px;
-    background-color: inherit;
-
+    background-color: #3A405A;
 }
-.home .about .contact{
-    border-top: 2px solid black;
-    text-align: center;
+img {
+    padding: 10px;
+    margin-right: auto;
+}
+button{
     height: inherit;
-    width: 80px;
-    padding: 4px, 0px;
+    padding: 0px 20px;
+    background-color: inherit;
+    border: none;
+    color: #FFFCFF;
 }
-
-.cum{
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+button:hover{
+    filter: brightness(85%);
+}
+button:focus{
+    background-color: #F6EF21;
+    color: black;
 }
