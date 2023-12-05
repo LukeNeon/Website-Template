@@ -7,16 +7,22 @@
 
 }
 
-@media (max-width: 800px) {
-    button {
+@media (min-width: 800px) {
+    .borgir {
         display: none;
+    }
+    button{
+        display: block;
     }
 
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
+    button{
+        display: none;
+    }
     .borgir{
-        display:block;
+        display: block;
     }
 }
 
@@ -42,8 +48,8 @@ nav{
 .menu{
     height: inherit;
 }
-.borgir{
-    display: none;
+.borgir img{
+    height: inherit;
 
 }
 button{
