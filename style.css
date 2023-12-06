@@ -41,6 +41,7 @@ nav{
     width: 100%;
     background-color: inherit;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.297) 10px 10px 10px;
 }
 .logga {
     padding: 10px;
